@@ -30,6 +30,18 @@ body {
 
 .imagea {
   text-decoration: none;
+}
+
+.imagea img {
+  padding: 0;
+  opacity: 1;
+  transition-duration: 0.5s;
+  background-image: url("http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/122010/etsy-heart-logo.png");
+  background-repeat: no-repeat;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 
 }
 .imagea:hover img{
@@ -40,8 +52,10 @@ body {
   transition-duration: 0.5s;
   padding-left: 200px;
   border: solid #AB9E74 2px;
-
-
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 .title {
