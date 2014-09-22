@@ -1,0 +1,70 @@
+body {
+  background-color: #F5F5F1; }
+
+.divs {
+  width: 930px;
+  height: 1200px;
+  margin: 50px auto 0 auto; }
+
+.divs2 {
+  width: 300px;
+  height: 330px;
+  display: inline-block;
+  margin: 3px;
+  vertical-align: top;
+  border: solid #AB9E74 2px;
+  border-radius: 3px;
+  z-index: 0;
+  overflow: hidden; }
+
+.images {
+  width: 300px; }
+
+.imagea {
+  text-decoration: none; }
+
+.imagea img {
+  padding: 0;
+  opacity: 1;
+  transition-duration: 0.5s;
+  background-image: url("http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/122010/etsy-heart-logo.png");
+  background-repeat: no-repeat;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
+
+.imagea:hover img {
+  background-image: url("http://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/122010/etsy-heart-logo.png");
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: 1;
+  transition-duration: 0.5s;
+  padding-left: 200px;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
+
+.title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 2px; }
+
+.titlep {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #AB9E74; }
+
+.price {
+  float: right;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #AB9E74;
+  padding-right: 5px; }
+
+.shop {
+  display: inline-block;
+  color: #575757;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-left: 5px; }
